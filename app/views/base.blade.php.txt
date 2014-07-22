@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  
+  <link media="all" rel="stylesheet" type="text/css" href="style.css">
+  <!--[if IE]>
+    <link media="all" rel="stylesheet" type="text/css" href="style-ie.css">
+  <![endif]--> 
+  <title>AJUSTADORES MEXICANOS</title>
+  </head>
+  <body>
+  
+    <div id="header">
+      <ul>
+        <img src="img/header.jpg" height="200" width="1000">
+      </ul>
+    </div>
+    
+<div id="menu" >
+        <ul>
+          <font color="#RRVVAA">
+          <P ALIGN=center>          
+          <a href="index.htm">INICIO  </a>
+          <a href="index.htm">MISION VISION  </a>
+          <a href="index.htm">SERVICIO  </a>
+          <a href="index.htm">COVERTURA </a>
+          <a href="index.htm">AREA GEOGRAFICO  </a>
+          <a href="index.htm">SUCURSALES </a>
+          <a href="index.htm">CONTACTO  </a>
+          </font>
+          </p>
+        </ul>
+</div>
+		<div id="nav">
+   
+   </div>
+    
+      <div class="body">
+      <div id="historia">
+        <h1 class="clr">HISTORIA</h1>
+        <font color="#RRVVAA">
+        <!-- <img src="img/img1.jpg" alt="img1.jpg, 3.8kB" title="img1.jpg, 3" height="100" width="150" class="fl">-->
+          <tr><p align="justify">
+          -En 1995 se funda Ajustadores Mexicanos, S.C. en la ciudad de Guadalajara, Jalisco, bajo la iniciativa del Sr. Jose Luis Jimenez Beltran ante la necesidad del mercado de seguros de contar con servicios profesionales de ajuste de sientros.</p></tr>       
+          <br>
+          <br>
+          </br>
+          </br>       
+          <tr><P ALIGN="justify">-En 2009, las tendencias del mercado en esta área, determinan nuestra decision de revitalizar nuestra operación y dar continiudad a Ajustadores Mexicanos, S.C., como firma independiente.</p></tr>
+          
+       	<br>
+        <br>
+        </br>
+        </br>
+        </font>
+         </div>     
+      </div>           
+     
+      <div id="footer">                  	             
+          <font color="#000000">          
+          <P ALIGN=center>          
+          <a href="index.htm">INICIO</a>          
+          <a href="index.htm">SERVICIO</a>          
+          <a href="index.htm">SUCURSALES</a>
+          <a href="index.htm">CONTACTO</a></p>
+          </font>
+       
+         
+      </div>
+
+     
+</div>
+    
+   
+
+
+  </body>
+</html>

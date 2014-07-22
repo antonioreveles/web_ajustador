@@ -1,0 +1,201 @@
+body, html
+{
+	border:  0px none;
+	width:960px;
+	margin:15px auto;
+	padding: 0px;
+	font-family: Georgia, "Times New Roman", Times, serif !important;
+	text-align: left;
+	background-color: #C0C0C0;
+	color: #000;
+	font-size: 16px;
+}
+ 
+.reset
+{
+	border:  0px none;
+	margin:  0px;
+	padding: 0px;
+	float: none;
+	clear: both; 
+	width: 0px;
+	height: 0px;
+	line-height: 0px;
+	font-size: 0px;
+}
+
+.fl
+{
+  float: left;
+}
+
+.clr
+{
+  color: #0083bb;
+}
+ 
+p, img, table, tr, th, td, h1, h2, h3, h4, h5, ul, li
+{
+	border:  0px none;
+	margin:  0px;
+	padding: 0px;
+}
+
+body
+{
+  padding: 0 0 30px 0;
+}
+
+a
+{
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #000000;
+  text-decoration: underline;
+}
+
+#header
+{
+	margin: auto;
+	width: 200px;
+	height: 150px;
+	background-image: url(img/header.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	text-align: left;
+}
+
+#main
+{
+  margin: auto;
+  width: 980px;
+  min-height: 200px;
+}
+
+#footer
+{
+	margin: auto;
+	width: 980px;
+	height: 70px;
+	background-image: url(img/footer.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	text-align: center;
+	
+}
+
+#footer p
+{
+  margin: 50px 0 0 0;
+  line-height: 20px;
+  color: #7e7e7e;
+}
+
+#footer a
+{
+  color: #000000;
+}
+
+#right
+{
+  width: 270px;
+  margin: 0 0 0 20px;
+  text-align: left;
+  padding: 70px 0 0 0;
+}
+
+#right h3
+{
+   background-color: #0083bb;
+   padding: 5px 0 5px 5px;
+   font-size: 15px;
+}
+
+#right ul
+{
+  margin: 10px 0 20px 0;
+}
+
+#right ul li
+{
+  margin: 5px 0 0 30px;
+  list-style-image: url(img/arrow.gif);
+}
+
+#content
+{
+	width: 680px;
+	text-align: left;
+	color: #000;
+}
+
+#content h1
+{
+	margin: 30px 0 10px 0;
+	font-size: 50px;
+	font-weight: normal;
+}
+
+#content h2
+{
+  margin: 20px 0 10px 0;
+  font-size: 20px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+#content p
+{
+  text-align: justify;
+  margin: 10px 0 10px 5px;
+  line-height: 20px;
+}
+
+#content img.fl
+{
+  margin: 0 10px 5px 0;
+}
+
+#content ul
+{
+  margin: 0 0 10px 40px;
+}
+
+#content ul li
+{
+  margin: 7px;
+}
+
+#name
+{
+  width: 380px;
+  height: 300px;
+  text-align: center;
+  border-top: 1px solid black;
+  font-family: Times New Roman;
+}
+
+#name strong 
+{
+  font-size: 20px;
+  margin: 120px;
+  display: block;
+}
+
+
+
+#menu ul li
+{
+  list-style-type: none;
+  display: inline;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+#menu ul li a {
+	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+}
