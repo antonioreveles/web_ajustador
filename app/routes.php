@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('home',array('as' => 'inicio',  function()
+Route::get('/',array('as' => 'inicio',  function()
 {
 	return View::make('home.index');
 
