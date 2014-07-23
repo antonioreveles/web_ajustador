@@ -2,15 +2,16 @@
 <html>
   <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   {{  HTML::style('css/style.css') }}
   <!--<link media="all" rel="stylesheet" type="text/css" href="style.css">-->
   <!--[if IE]>
     <link media="all" rel="stylesheet" type="text/css" href="style-ie.css">
   <![endif]--> 
   <title>AJUSTADORES MEXICANOS</title>
-  <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   </head>
+  
   <body>
   
     <div id="header">
