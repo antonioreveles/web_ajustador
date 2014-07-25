@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('content')
-<div id="historia">
+<div id="texto">
         <h1 class="clr">HISTORIA</h1>
         <br></br>
         <font color="#RRVVAA">

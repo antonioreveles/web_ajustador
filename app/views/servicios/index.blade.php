@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('content')
-<div id="servicios">
+<div id="texto">
           <br>
           <br>
           </br>

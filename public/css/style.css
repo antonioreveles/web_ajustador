@@ -6,7 +6,7 @@ body, html
 	padding: 0px;
 	font-family: Georgia, "Times New Roman", Times, serif !important;
 	text-align: left;
-	background-color: #C0C0C0;
+	background-color: #ffffff;
 	color: #000;
 	font-size: 16px;
 }
@@ -61,9 +61,9 @@ a:hover
 #header
 {
 	margin: auto;
-	width: 200px;
-	height: 150px;
-	background-image: url(img/header.jpg);
+	/*width: 200px;
+	height: 150px;*/
+	background-image: url(img/headerb.jpg);
 	background-repeat: no-repeat;
 	background-position: center top;
 	text-align: left;
@@ -188,14 +188,38 @@ a:hover
 
 
 
-#menu ul li
+#menu  li
 {
   list-style-type: none;
   display: inline;
   font-weight: bold;
   text-transform: uppercase;
   margin-right: 20px;
+  float: left;
 }
+
+#menu ul {
+    list-style-type: none;
+    margin: 3px;
+    padding: 0px;
+    width: 200px;
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+}
+
 #menu ul li a {
-	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 10px 10px 20px;
+}
+
+#menu ul li a:hover {
+    background: #000;
+    border-left: 10px solid #333;
+    color: #fff;
+}
+div#texto {
+  margin: 4px;
 }

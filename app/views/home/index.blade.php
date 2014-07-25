@@ -1,9 +1,9 @@
 @extends('base')
 
 @section('content')
-<div id="historia">
+<div id="texto">
   <br>
-  <div align="center"><img  src="img/ejecutivos.jpg"  height="500" width="900"></div>
+  <div align="center"><img  src="img/ejecutivos.jpg"  height="700" width="800"></div>
 </br>
 </div>
 @stop

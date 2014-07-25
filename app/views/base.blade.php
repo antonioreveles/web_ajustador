@@ -2,7 +2,7 @@
 <html lang="es">
 
   <head>
-     <meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   
@@ -20,27 +20,29 @@
   
     <div id="header">
       <ul>
-        <div ALIGN="left"><img  src="img/header.jpg"  height="150" width="250"></div>
+        <div ><img  src="img/headera.jpg" ALIGN="LEFT" height="150" width="250">
+          <img  src="img/headerb.jpg" ALIGN="CENTER" height="250" width="1050">
+        <br></br>
+        
       </ul>
-    </div>
-   
-<div id="menu" >
-        <ul>
-          <font color="#RRVVAA">
-          <P ALIGN=center>                    
-          <a href="{{ URL::route('inicio') }}"> INICIO  </a>&nbsp;&nbsp;&nbsp;
-          <a href="{{ URL::route('empresa') }}"> NUESTRA EMPRESA  </a>&nbsp;&nbsp;&nbsp;
-          <a href="{{ URL::route('servicio') }}">  SERVICIO  </a>&nbsp;&nbsp;&nbsp;
-          <a href="{{ URL::route('covergeografica') }}">COVERTURA GEOGRAFICA  </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="{{ URL::route('sucursal') }}">SUCURSALES </a>&nbsp;&nbsp;&nbsp;
-          <a href="{{ URL::route('contacto') }}">CONTACTO  </a>
-          </font>
-          </p>
-        </ul>
-</div>
-		
-    <br></br>
+    </div>   
+	  
       <div class="body">
+        <div id="menu" >
+          <ul>
+             <font color="#RRVVAA">
+              <P ALIGN=center>                    
+              <li><a href="{{ URL::route('inicio') }}"> INICIO  </a></li>
+              <li><a href="{{ URL::route('empresa') }}"> NUESTRA EMPRESA  </a></li>
+              <li><a href="{{ URL::route('misionv') }}">MISION VISION  </a></li>
+              <li><a href="{{ URL::route('servicio') }}">  SERVICIO  </a></li>
+              <li><a href="{{ URL::route('covergeografica') }}">COVERTURA GEOGRAFICA  </a></li>
+              <li><a href="{{ URL::route('sucursal') }}">SUCURSALES </a></li>
+              <li><a href="{{ URL::route('contacto') }}">CONTACTO  </a></li>
+             </font>
+              </p>
+          </ul>
+        </div>  
 
 
           @yield('content')

@@ -48,7 +48,12 @@ return View::make('sucursales.index');
 
 Route::get('correo',array('as' => 'contacto', function()
 {
-return View::make('contacto.index');
-	
+return View::make('contacto.index');	
+
+}));
+
+Route::get('misionv',array('as' => 'misionv', function()
+{
+return View::make('misionv.index');	
 
 }));
