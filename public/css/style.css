@@ -44,6 +44,8 @@ p, img, table, tr, th, td, h1, h2, h3, h4, h5, ul, li
 body
 {
   padding: 0 0 30px 0;
+  
+
 }
 
 a
@@ -200,11 +202,12 @@ a:hover
 
 #menu ul {
     list-style-type: none;
-    margin: 3px;
+    margin: 3px solid;
     padding: 0px;
     width: 200px;
     font-family: Arial, sans-serif;
     font-size: 11pt;
+    margin-right:250px;
 }
 
 #menu ul li a {
@@ -213,6 +216,7 @@ a:hover
     text-transform: uppercase;
     display: block;
     padding: 10px 10px 10px 20px;
+    margin-right:50px;
 }
 
 #menu ul li a:hover {
@@ -221,5 +225,7 @@ a:hover
     color: #fff;
 }
 div#texto {
-  margin: 4px;
+  margin: 3px; 
+  width= 700px;
+  margin-left:250px;
 }
