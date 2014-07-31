@@ -62,7 +62,9 @@ a:hover
 
 #header
 {
-	margin: auto;
+  margin: auto;
+	/*margin-left: 250px;
+  margin-right: 250px;
 	/*width: 200px;
 	height: 150px;*/
 	background-image: url(img/headerb.jpg);
@@ -137,6 +139,7 @@ a:hover
 
 #content h1
 {
+  color: #254960;
 	margin: 30px 0 10px 0;
 	font-size: 50px;
 	font-weight: normal;
@@ -144,10 +147,10 @@ a:hover
 
 #content h2
 {
-  margin: 20px 0 10px 0;
-  font-size: 20px;
+  margin: 30px 0 15px 0;
+  font-size: 13px;
   font-weight: normal;
-  color: #ffffff;
+  color: #00AFEF;
 }
 
 #content p
@@ -228,4 +231,9 @@ div#texto {
   margin: 3px; 
   width= 700px;
   margin-left:250px;
+}
+
+div#formulario{
+  margin-left:250px;
+  
 }

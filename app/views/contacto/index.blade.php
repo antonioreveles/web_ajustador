@@ -6,7 +6,7 @@
 if (!isset($_POST['email'])) {
 ?>
   <form action="<?=$_SERVER['PHP_SELF']?>" method="post">
-  	<div align="center">
+  	<div id="formulario"> <!--align="center"--> 
     <label>
       Nombre:
       <input name="nombre" type="text" />
@@ -27,7 +27,6 @@ if (!isset($_POST['email'])) {
       <textarea name="mensaje" rows="6" cols="50"></textarea>
     </label>
     <br></br>
-
     <input type="reset" value="Borrar" />
     <input type="submit" value="Enviar" />
 </div>

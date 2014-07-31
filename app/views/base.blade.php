@@ -20,9 +20,9 @@
   
     <div id="header">
       <ul>
-        <div ><img  src="img/headera.jpg" ALIGN="LEFT" height="150" width="250">
-          <img  src="img/headerb.jpg" ALIGN="CENTER" height="250" width="1050">
-        <br></br>
+        <div ><img  src="img/headera.jpg" ALIGN="LEFT" height="350" width="1000">
+        <!--  <img  src="img/headerb.jpg" ALIGN="CENTER" height="250" width="1050">-->
+        <br></br><br></br><br></br><br></br>
         
       </ul>
     </div>   
@@ -58,7 +58,7 @@
           <a href="{{ URL::route('inicio') }}"> INICIO  </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          
           <a href="{{ URL::route('servicio') }}">SERVICIO</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          
           <a href="{{ URL::route('sucursal') }}">SUCURSALES</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="{{ URL::route('contacto') }}">CONTACTO</a></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="{{ URL::route('contacto') }}">CONTACTO</a></p>
           </font>
       </div>
 
