@@ -57,3 +57,9 @@ Route::get('misionv',array('as' => 'misionv', function()
 return View::make('misionv.index');	
 
 }));
+
+Route::get('directorio',array('as' => 'directorio', function()
+{
+return View::make('directorio.index');	
+
+}));

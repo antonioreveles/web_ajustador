@@ -2,7 +2,7 @@
 
 @section('content')
 <div id="texto">
-        <h1 class="clr">HISTORIA</h1>
+        <h1 class="clr">NUESTRA EMPRESA</h1>
         <br></br>
         <font color="#005172">
         <!-- <img src="img/img1.jpg" alt="img1.jpg, 3.8kB" title="img1.jpg, 3" height="100" width="150" class="fl">-->

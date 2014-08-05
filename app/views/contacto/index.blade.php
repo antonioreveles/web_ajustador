@@ -8,7 +8,7 @@ if (!isset($_POST['email'])) {
   <form action="<?=$_SERVER['PHP_SELF']?>" method="post">
   	<div id="formulario"> <!--align="center"--> 
     <label>
-      Nombre:
+      Nombre:&nbsp;&nbsp;
       <input name="nombre" type="text" />
     </label>
     <br></br>
@@ -18,17 +18,17 @@ if (!isset($_POST['email'])) {
     </label>
     <br></br>
     <label>
-      Email:
+      Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <input name="email" type="text" />
     </label>
     <br></br>
     <label>
-      Mensaje:
+      Mensaje:&nbsp;
       <textarea name="mensaje" rows="6" cols="50"></textarea>
     </label>
     <br></br>
-    <input type="reset" value="Borrar" />
-    <input type="submit" value="Enviar" />
+   <div align="center"> <input type="reset" value="Borrar" />
+    <input type="submit" value="Enviar" /></div>
 </div>
   </form>
 <?php
@@ -38,7 +38,7 @@ if (!isset($_POST['email'])) {
   $mensaje.= "\nEmail: ".$_POST['email'];
   $mensaje.= "\nTelefono: ". $_POST['telefono'];
   $mensaje.= "\nMensaje: \n".$_POST['mensaje'];
-  $destino= "amex@amex.com";
+  $destino= "joseluis.jimenez@ajustadoresmexicanos.com";
   $remitente = $_POST['email'];
   $asunto = "Mensaje enviado por: ".$_POST['nombre'];
   mail($destino,$asunto,$mensaje,"FROM: $remitente");

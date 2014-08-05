@@ -193,47 +193,48 @@ a:hover
 
 
 
-#menu  li
+#menu  lu
 {
   list-style-type: none;
   display: inline;
   font-weight: bold;
   text-transform: uppercase;
-  margin-right: 20px;
+  margin-right: 60px;
   float: left;
 }
 
-#menu ul {
+#menu lu {
     list-style-type: none;
     margin: 3px solid;
     padding: 0px;
-    width: 200px;
+    width: 55px;
     font-family: Arial, sans-serif;
     font-size: 11pt;
-    margin-right:250px;
+    margin-right:65px;
 }
 
-#menu ul li a {
-    color: #000;
+#menu ul lu a {
+    color: #005172;
     text-decoration: none;
     text-transform: uppercase;
     display: block;
     padding: 10px 10px 10px 20px;
-    margin-right:50px;
+    margin-right:55px;
 }
 
-#menu ul li a:hover {
+#menu ul lu a:hover {
     background: #000;
     border-left: 10px solid #333;
-    color: #fff;
+    color: #00AFEF;
 }
 div#texto {
   margin: 3px; 
-  width= 700px;
-  margin-left:250px;
+  width= 1050px;
+  /*margin-left:1px;*/
+
 }
 
 div#formulario{
-  margin-left:250px;
+  margin-left:1px;
   
 }

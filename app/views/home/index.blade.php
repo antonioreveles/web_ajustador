@@ -3,7 +3,7 @@
 @section('content')
 <div id="texto">
   <br>
-  <div align="center"><img  src="img/ejecutivos.jpg"  height="450" width="700"></div>
+  <div align="center"><img  src="img/inicio.jpg" ALIGN="CENTER" height="300" width="950"></div>
 </br>
 </div>
 @stop

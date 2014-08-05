@@ -3,15 +3,23 @@
 @section('content')
 <div id="texto">
         <br> 
-          <font color="#254960">                     
-          <h1 class="clr">COBERTURA GEOGRAFICA</h1>        
-                  
-           <p><img class="alineadoTextoImagenCentro" src="img/mapmex.jpg" height="450" width="550" style="float:left" border="1">
-            <br></br><br></br><br></br><br></br><br></br><br></br>
-            <li>Jalisco</li> <li>Colima</li> <li>Nayarit</li> <li>Michoacán</li> <li>Aguascalientes</li> <li>Guanajuato</li> <li>San Luis Potosí</li> <li>Zacatecas</li> 
-           </p>                
+          <font color="#254960">                              
+          <h1 class="clr" ALIGN="CENTER">COBERTURA GEOGRÁFICA</h1>
+          <br></br><br></br>
+          <div ALIGN="CENTER">
+                <img src="img/mapmex2.jpg"  ALIGN="CENTER" height="500" width="700" >
+          </div>
+          <!--<div align="LEFT">-->
+                <!--<li> Jalisco</li><!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> 
+                <!--<li> Colima</li><!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+                <!--<li> Nayarit</li><!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+                <!--<li> Michoacán</li> <!--<br></br>-->
+                <!--<li> Aguascalientes</lu><!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+                <!--<li> Guanajuato</lu><!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+                <!--<li> San Luis Potosí<!--</lu>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+                <!--<li> Zacatecas</lu>--> 
+              <!--</div>-->
+               <br></br>          
           </font>
-        </br> <br></br><br></br><br></br>
-        
 </div>       
       @stop    
